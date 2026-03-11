@@ -2,25 +2,24 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Mon CV</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="cv2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site</title>
+    <link rel="stylesheet" href="cv2.css">
+    
 </head>
 <body>
 
     <!-- HEADER ORIGINAL -->
    <header class="hero-creative">
     <div class="overlay"></div>
-
     <div class="hero-content">
         <div class="hero-text">
             <h1>
-                Je suis <br> <span>MIORA HARENTSOA Andrianarimanana</span>
+         Je suis <br><span>MIORA  HARENTSOA Andrianarimanana</span>
             </h1>
 
             <p class="subtitle">
-                Une adoratrice de la technologie
+                <strong>Une passionnée de la technologie</strong>
             </p>
 
             <p class="description">
@@ -29,10 +28,14 @@
             </p>
 
             <div class="buttons">
-                <a href="cvpapier.html" class="btn-main">Voir mon CV</a>
+                <a href="cvpapier.html" class="btn-main" title="Consulter mon curriculum vitae">Voir mon CV</a>
                 <a href="#contact" class="btn-outline">Collaborons ensemble</a>
+              
             </div>
         </div>
+        <button id="theme-toggle">
+            ☀️ Mode clair
+        </button>
 
         <div class="hero-img">
             <img src="moi.jpeg" alt="Portrait de Miora">
@@ -49,67 +52,31 @@
             attractives. Mon objectif ? Transformer mes idées en projets uniques.
         </p>
     </section>
-    <div class="profil-content">
-                <h1 class="title">Informations personnelles</h1>
-                <br>
-                <hr>
-                <ul class="liste">
-                    <li><u><em>Etablissement</em></u>: Ecole de Management et d'Innovation Technologique (EMIT)</li> 
-                    <li><em>Téléphone</em></u>: 0378824368</li>
-                    <li ><u><em>Email</em></u>:mioraarmy04@gmail.com</li>
-                </ul>
-                <br>           
-                
-    </div>
-    <div id="contact">
-        <h2>Mes contacts</h2>
-        <p><u></u><em>Téléphone</em></u>: 0378824368</p>
-        <p><u><em>Email</em></u>:mioraarmy04@gmail.com</p>
-    </div>
-    <section class="user-experience">
-                <h1>Parcours et Formation</h1><br>
-
-                <div class="education-time">
-                     <hr>
-    <ul class="liste-parcours">
-        <li>2025: Diplôme de baccalauréat mention série S du Lycée Privé Orchidée Sambava</li>
-        <li>En Mars 2024: Diplôme DELF B2</li>
-        <li>En Juillet 2023: Diplôme DELF B1 à l'Alliance Française de Sambava <br>Formation en langue anglaise au CFP ESAC Madagascar</li>
-        <li>2022: obtenue le diplôme de BEPC à Sambava</li>
-        <li>2018: obtenue le diplôme de CEPE à Diégo</li>
-    </ul>
-              </div>
-    <section class="experience">
-    <h2>Expérience associative</h2>
-      
-    <div class="exp-item">
-        <div class="exp-header">
-            <h3>Membre – RHI</h3>
-            
-        </div>
-        <p class="description">
-            Participation à l’organisation d’un scrutin et contribution à son bon déroulement.
-        </p>
-        <ul>
-            <li>Accueil et orientation des participants</li>
-            <li>Vérification des informations nécessaires</li>
-            <li>Respect des procédures établies</li>
-        </ul>
-        <div>
-            <h3>Membre de l'EMITECH</h3>
-    </div>
-
-</section>          
+    
 
     <!-- COMPETENCES -->
-    <section class="skills" id="skills">
-        <h2>Mes Compétences</h2>
+    
+    <section id="competences">
+        <h2>Mes compétences</h2>
+        <hr>
+    
+        <!-- Compétences Personnelles -->
         
-          <hr>
-<div class="competences-container">
-            <!-- Compétences Techniques -->
-        <h2>💻<em>Compétences Techniques</em></h2>
-       
+        <br>
+        <h2>🔄<em>Compétences d'Adaptabilité</em> </h2>
+            <div id="skills" class="card">
+            <ul class="soft-skills">
+                <li>✔ Veille Technologique</li>
+                <li>✔ Résolution de Problèmes</li>
+                <li>✔ Esprit Analytique</li>
+                <li>✔ Apprentissage rapide</li>
+            </ul>
+            </div>
+    
+            <!-- TECHNIQUES -->
+        
+            <h2>💻<em>Compétences Techniques</em></h2>
+
     <div class="tech-container">
         <div class="tech-item html">
             <span>HTML5</span>
@@ -118,122 +85,103 @@
         <div class="tech-item css">
             <span>CSS3</span>
         </div>
+        <div class="tech-item js">
+            <span>JavaScript</span>
+        </div>
     </div>
 </div>
 
 
         
-        <!-- Compétences Personnelles -->
-        <br>
-        <h2>🌟<em>Compétences Personnelles</em> </h2>
-            <div class="card">
-            <ul class="soft-skills">
-                <li>✔ Rigueur</li>
-                <li>✔ Détermination</li>
-                <li>✔ Esprit d'équipe</li>
-                <li>✔ Autonomie</li>
-            </ul>
+        <!--compétences personnelles : bulles flottantes-->
+        
+        <div class="competence-section">
+            <h2>🌟Compétences Personnelles</h2>
+            <div class="soft-skills-bubbles">
+                <span class="bubble">Créativité</span>
+                <span class="bubble">Rigueur</span>
+                <span class="bubble">Détermination</span>
+                <span class="bubble">Esprit d'équipe</span>
+                <span class="bubble">Autonome</span>
+                <span class="bubble">Communication</span>
+                <span class="bubble">Adaptabilité</span>
             </div>
-        <!-- Langues -->
-       
-        <div class="languages-section">
-        <h2>🌍<em>Langues</em></h2>
-
-    <section class="language-card">
-        <h3>Français</h3>
-
-        <div class="skill">
-            <span>Parlé</span>
-            <div class="bar">
-                <div class="progress" style="width: 95%;"></div>
-            </div>
-            <small>Très bien</small>
         </div>
 
-        <div class="skill">
-            <span>Écrit</span>
-            <div class="bar">
-                <div class="progress" style="width: 80%;"></div>
-            </div>
-            <small>Bien</small>
+        <!--Langues avec drapeaux -->
+         <h2> 🌐Compétences Linguistiques</h2>
+<section class="skills-section">
+
+    <div class="skill">
+        <div class="skill-info">
+            <span><i></i> Français</span>
+            <span class="percent" data-target="95">0%</span>
         </div>
+        <div class="progress-bar">
+            <div class="progress" data-width="95"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span><i></i> Anglais</span>
+            <span class="percent" data-target="85">0%</span>
+        </div>
+        <div class="progress-bar">
+            <div class="progress" data-width="85"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span><i></i> Malagasy</span>
+            <span class="percent" data-target="80">0%</span>
+        </div>
+        <div class="progress-bar">
+            <div class="progress" data-width="80"></div>
+        </div>
+    </div>
+
+    </section>    
+
+    <!-- Section Projet -->
+
+    <section id="projets">
+        <h2>Mes projets</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Projet 1</h3>
+                <p>Création d'un portfolio <br>Technologie utilisées : HTML, CSS, JS.</p>
+
+            </div>
+            <div class="project-card">
+                <h3>Projet 2</h3>
+                <p>Elaboration d'un solar tracker <br>Technologie utilisées : Arduino.</p>
+
+            </div>
+            <div class="project-card">
+                <h3>Projet 3</h3>
+                <p>Création d'un site web <br>Technologie utilisées : HTML, CSS, JS, Github.</p>
+
+            </div>
+        </div>
+
     </section>
 
-    <section class="language-card">
-        <h3>Anglais</h3>
-
-        <div class="skill">
-            <span>Parlé</span>
-            <div class="bar">
-                <div class="progress" style="width: 75%;"></div>
-            </div>
-            <small>Bon</small>
-        </div>
-
-        <div class="skill">
-            <span>Écrit</span>
-            <div class="bar">
-                <div class="progress" style="width: 70%;"></div>
-            </div>
-            <small>Correct</small>
-        </div>
+    <!-- Section contact -->
+     <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Nom"required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" rows="5" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
     </section>
-     <section class="language-card">
-        <h3>Malagasy</h3>
 
-        <div class="skill">
-            <span>Parlé</span>
-            <div class="bar">
-                <div class="progress" style="width: 70%;"></div>
-            </div>
-            <small>Bien</small>
-        </div>
-
-        <div class="skill">
-            <span>Écrit</span>
-            <div class="bar">
-                <div class="progress" style="width: 70%;"></div>
-            </div>
-            <small>Bien</small>
-        </div>
-     </section>
-            
-    </section>
+    <script src="script.js"></script>
     
 
-    <!-- PROJETS -->
-     <section class="projects">
-    <h2>Projets</h2>
-
-    <div class="project">
-        <div class="project-header">
-            <h3>Mini site web</h3>
-           
-        </div>
-        <p class="description">
-            Création d’un site web simple en HTML et CSS.
-        </p>
-        <ul class="details">
-            <li>Structure en HTML</li>
-            <li>Mise en page en CSS</li>
-        </ul>
-    </div>
-
-    <div class="project">
-        <div class="project-header">
-            <h3>Arduino</h3>
-            
-        </div>
-        <p class="description">
-            Réalisation d’un petit projet avec un arduino.
-        </p>
-        <ul class="details">
-            <li>Comprendre le fonctionnement d'un arduino</li>
-            
-        </ul>
-    </div>
-
-</section>
     <section class="chips-section">
         <h2>Centres d'intérêt</h2>
         <hr>

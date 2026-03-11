@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="cvpapier.css">
 </head>
 <body>
-    <img src="photo.jepg" alt="Ma photo">
-    <h1>CURRICULUM VITAE</h1>
-    <p><u>INFORMATION PERSONNELLES</u></p>
+    <div class="page">
+    <header class="cv-header">
+        <h1>CURRICULUM VITAE</h1>
+   <div class="cv-photo-container">
+    <img src="ma photo professionnelle.jpg" alt="Photo de profil professionnel" class="cv-photo">
+   </div>
+    </header>
+    <p><u>INFORMATIONS PERSONNELLES</u></p>
     <hr>
     <ul>
         <li>Nom : MIORA HARENTSOA</li>
@@ -71,6 +77,40 @@
         </tr>
     </tbody>
 </table>
+    <!-- PROJETS -->
+     <section class="projects">
+    <h2>Projets</h2>
+
+    <div class="project">
+        <div class="project-header">
+            <h3>Mini site web</h3>
+           
+        </div>
+        <p class="description">
+            Création d’un site web simple en HTML et CSS.
+        </p>
+        <ul class="details">
+            <li>Structure en HTML</li>
+            <li>Mise en page en CSS</li>
+        </ul>
+    </div>
+
+    <div class="project">
+        <div class="project-header">
+            <h3>Arduino</h3>
+            
+        </div>
+        <p class="description">
+            Réalisation d’un petit projet avec un arduino.
+        </p>
+        <ul class="details">
+            <li>Comprendre le fonctionnement d'un arduino</li>
+            
+        </ul>
+    </div>
+    
+
+</section>
     <p><u>LOISIRS</u></p>
     <hr>
     <ul>
@@ -91,6 +131,7 @@
     </div>
     <br>
     <a href="index.html">Retour</a>
+    </div>
     
 </body>
 </html>

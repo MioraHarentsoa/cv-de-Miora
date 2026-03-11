@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+
+.cv-photo-container {
+    width: 130px;
+    height: 140px;
+    overflow: hidden;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.cv-photo {
+    width: 130px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center top;
+}
+.cv-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.page{
+    width: 800px;
+    background:white;
+    margin:40px auto;
+    padding:40px;
+    box-shadow:0px 0px 15px rgba(0,0,0,0.2);
+}
+
+@media print {
+body{
+background:white;
+}
+
+.page{
+box-shadow:none;
+margin:0;
+width:100%;
+}
+}
